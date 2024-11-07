@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3100",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,9 +14,11 @@
     "@heroicons/react": "^2.1.5",
     "@mui/icons-material": "^5.15.17",
     "@mui/material": "^5.15.17",
+    "axios": "^1.7.7",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "socket.io-client": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "^20",
